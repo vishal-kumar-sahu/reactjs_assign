@@ -63,7 +63,7 @@ const ViewNotes = () => {
               {notes &&
                 notes.map((data) => {
                   return (
-                    <div id={data ? data._id : ''} className="flex justify-center  m-2">
+                    <div id={data ? data._id : ''} className="flex justify-center items-center m-2">
                       <div class="relative flex w-full max-w-[26rem] min-w-[15rem] flex-col rounded-xl bg-slate-50 bg-clip-border text-gray-700 shadow-lg">
                         <div class="p-6">
                           <div class="flex items-center justify-between">
